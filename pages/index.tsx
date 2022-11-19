@@ -17,7 +17,7 @@ export default function Home() {
 
         <p className={styles.description}>
           Listening on{' '}
-          <code className={styles.code}>http://localhost:3000/</code>
+          <code className={styles.code}>{process.env.originURL}</code>
         </p>
         
       </main>
